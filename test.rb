@@ -31,6 +31,13 @@ end
 
 puts "What's your name"
 
-name = gets
+first_name = gets.chomp
 
-puts name
+
+puts "what's your last name"
+last_name = gets.chomp
+
+puts "your full name is: " + first_name + " " + last_name
+
+
+

@@ -1,1 +1,11 @@
 ruby 1
+
+Notes Taking
+
+"#{name}"  // injection code with name variable
+
+data.each do |item| puts item end 
+  *******both same thing*******
+data.each {|item| puts item}
+
+ruby function return *last statement* regardless
